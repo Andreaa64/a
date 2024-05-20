@@ -134,7 +134,7 @@ public class UploadGame extends HttpServlet {
             BufferedImage image = ImageIO.read(input);
             return image != null;
         } catch (IOException e) {
-            return false;
+            return false; 
         }
     }
 
